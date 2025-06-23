@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flanellib", "Flanellib\Flanellib.csproj", "{404C0EA0-EF65-4F7A-8252-5D3EF550E8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flanellib.Test", "Flanellib.Test\Flanellib.Test.csproj", "{3B728F5C-40D1-415D-BC89-9A04C98FD9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404C0EA0-EF65-4F7A-8252-5D3EF550E8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C0EA0-EF65-4F7A-8252-5D3EF550E8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404C0EA0-EF65-4F7A-8252-5D3EF550E8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404C0EA0-EF65-4F7A-8252-5D3EF550E8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B728F5C-40D1-415D-BC89-9A04C98FD9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B728F5C-40D1-415D-BC89-9A04C98FD9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B728F5C-40D1-415D-BC89-9A04C98FD9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B728F5C-40D1-415D-BC89-9A04C98FD9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63A9F044-1C76-4E00-8468-B4F4A1E8E38C}
+	EndGlobalSection
+EndGlobal

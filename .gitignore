@@ -1,0 +1,30 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+*.suo
+*.user
+.vs/
+*.csproj.user
+*.vcxproj.user
+
+# NuGet files
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Rider (JetBrains IDE)
+.idea/
+
+# Test Results
+TestResults/
+*.trx
+
+# Common operating system files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Dotnet tools local manifest file
+.config/dotnet-tools.json
