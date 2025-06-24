@@ -70,8 +70,8 @@ namespace Flanellib.Functions.Maybe.Extensions
         {
             var value = @this switch
             {
-                Nothing<T> => new Just<T>(thisInstead()),
-                _ => @this
+                Just<T> val => val,
+                _ => new Just<T>(thisInstead())
             };
 
             return value;
